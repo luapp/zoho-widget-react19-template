@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+    width: 100vw;
+}
