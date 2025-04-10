@@ -4,7 +4,8 @@ import App from "./App";
 
 const registerZohoListeners = (setZohoId) => {
   ZOHO.embeddedApp.on("PageLoad", function (data) {
-    setZohoId(data.EntityId[0]);
+    console.log("PageLoad data", data);
+    setZohoId(data.EntityId);
   });
   ZOHO.embeddedApp.init();
 };
